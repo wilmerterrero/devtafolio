@@ -9,6 +9,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faPhp } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
+import { faGit } from "@fortawesome/free-brands-svg-icons";
 
 const HTML5 = <FontAwesomeIcon icon={faHtml5} />;
 const CSS = <FontAwesomeIcon icon={faCss3} />;
@@ -17,6 +18,7 @@ const ReactJS = <FontAwesomeIcon icon={faReact} />;
 const PHP = <FontAwesomeIcon icon={faPhp} />;
 const SQL = <FontAwesomeIcon icon={faDatabase} />;
 const Bootstrap = <FontAwesomeIcon icon={faBootstrap} />;
+const Git = <FontAwesomeIcon icon={faGit} />;
 
 const Contenedor = styled.div`
   background-color: #3f54a3;
@@ -141,6 +143,10 @@ const Languages = () => {
                 <Icon href="#!">{Bootstrap}</Icon>
                 <Descripcion>Boostrap</Descripcion>
               </IconsInline>
+              <IconsInline>
+                <Icon href="#!">{Git}</Icon>
+                <Descripcion>Git, GitHub</Descripcion>
+              </IconsInline>
             </IconList>
           </ContenedorPeq>
           <ContenedorPeq className="col s12 card-panel hoverable show-on-small show-on-medium hide-on-large-only hide-on-med-and-up">
@@ -174,6 +180,10 @@ const Languages = () => {
               <IconsInline>
                 <Icon href="#!">{Bootstrap}</Icon>
                 <Descripcion>Boostrap</Descripcion>
+              </IconsInline>
+              <IconsInline>
+                <Icon href="#!">{Git}</Icon>
+                <Descripcion>Git, GitHub</Descripcion>
               </IconsInline>
             </IconList>
           </ContenedorPeq>
