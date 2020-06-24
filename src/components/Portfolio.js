@@ -80,6 +80,8 @@ const Portfolio = () => {
               <Buttom
                 className="waves-effect waves-light btn brown lighten-4"
                 href="www.consularisservice.com"
+                target="_blank" 
+                rel='noopener noreferrer'
               >
                 <b>Visitar Sitio</b>
               </Buttom>
