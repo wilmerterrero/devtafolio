@@ -18,6 +18,7 @@ const FooterI = styled.div`
 
     @media (max-width: 425px) {
         text-align: center;
+        margin: 0;
   }
 `;
 
