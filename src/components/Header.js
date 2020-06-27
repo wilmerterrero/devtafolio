@@ -88,7 +88,7 @@ const Header = () => {
             enthusiast. My passion is create beautiful interfaces with a
             functional code. I love learn and teach others. */}
             Soy un dominicano <DO src={dominican} />
-            aficionado por la tecnología. Actualmente me dedico al Frontend Design como Freelancer. Me encanta aprender y enseñar a otros.
+            aficionado por la tecnología. Actualmente me dedico al Desarrollo de Páginas Web como Freelancer. Me encanta aprender y enseñar a otros.
             ¡Disfruta mi portafolio!
           </p>
           <Icon className="btn-floating btn-large waves-effect waves-light grey darken-4" href="#!">{Github}</Icon>

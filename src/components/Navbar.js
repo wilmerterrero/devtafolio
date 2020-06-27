@@ -25,7 +25,7 @@ const Navbar = ({ tittle }) => {
       <div className="navbar-fixed">
         <Nav className="nav-wrapper brown lighten-4">
           <div className="container">
-            <Logo href="#!">
+            <Logo href="/">
               <b>{tittle}</b>
             </Logo>
           </div>

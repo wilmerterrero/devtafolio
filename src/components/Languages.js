@@ -112,7 +112,7 @@ const Languages = () => {
         <Herramienta src={Tools} alt="Tools" />
         <div className="row">
           <ContenedorPeq className="col s6 card-panel hoverable offset-s1 hide-on-small-only hide-on-med-and-down">
-            <Subtitulo1>Frontend Developer</Subtitulo1>
+            <Subtitulo1>Desarrollo Web</Subtitulo1>
             <Subtitulo>Trabajo con amor con estas tecnologías</Subtitulo>
             <IconList>
               <IconsInline>
@@ -150,7 +150,7 @@ const Languages = () => {
             </IconList>
           </ContenedorPeq>
           <ContenedorPeq className="col s12 card-panel hoverable show-on-small show-on-medium hide-on-large-only hide-on-med-and-up">
-            <h4>Frontend Developer</h4>
+            <h4>Desarrollo Web</h4>
             <Subtitulo>Trabajo con amor con estas tecnologías</Subtitulo>
             <IconList>
               <IconsInline>

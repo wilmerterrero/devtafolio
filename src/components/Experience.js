@@ -30,7 +30,7 @@ const Logo = styled.img`
   margin-left: 5rem;
   margin-top: 2rem;
 
-  @media (max-width: 992px) {
+  @media (max-width: 320px) {
     margin-left: 0px;
   }
 `;
@@ -39,7 +39,7 @@ const ProgressBar = styled.div`
     height: 8px;
     width: 50%;
 
-   @media (max-width: 992px) {
+   @media (max-width: 1024px) {
      width: 100%;
   }
 `;

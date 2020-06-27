@@ -3,10 +3,12 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Languages from './components/Languages';
 import Experience from './components/Experience';
-import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 function App() {
 
+  const year = new Date().getFullYear();
   return (
     <Fragment>
       <Navbar 
@@ -15,7 +17,10 @@ function App() {
       <Header />
       <Languages />
       <Experience />
-      <Portfolio />
+      <Contact />
+      <Footer
+        year = {year}
+      />
     </Fragment>
   );
 }

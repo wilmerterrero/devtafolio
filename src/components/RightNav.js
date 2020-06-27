@@ -46,22 +46,12 @@ const RightNav = ({ open }) => {
     <Ul open={open}>
       <li>
         <Icons href="#!">
-          <b>Inicio</b>
-        </Icons>
-      </li>
-      <li>
-        <Icons href="#!">
-          <b>Skills</b>
-        </Icons>
-      </li>
-      <li>
-        <Icons href="#!">
-          <b>Experiencia</b>
-        </Icons>
-      </li>
-      <li>
-        <Icons href="#!">
           <b>Portafolio</b>
+        </Icons>
+      </li>
+      <li>
+        <Icons href="#!">
+          <b>About Me</b>
         </Icons>
       </li>
     </Ul>
