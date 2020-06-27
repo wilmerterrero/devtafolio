@@ -46,7 +46,7 @@ const Greetings = styled.div`
   }
 `;
 
-const Buttom = styled.a`
+const Button = styled.a`
     color: #3f54a3;
     margin: 0.5rem;
     font-size:22px;
@@ -84,9 +84,6 @@ const Header = () => {
           <Logo src={img} alt="foto" />
           <h1>¡Hola! Soy Wilmer <WavingHand src={hand} /></h1>
           <p>
-            {/* My name is Wilmer Terrero. I'm a Dominican Frontend Developer
-            enthusiast. My passion is create beautiful interfaces with a
-            functional code. I love learn and teach others. */}
             Soy un dominicano <DO src={dominican} />
             aficionado por la tecnología. Actualmente me dedico al Desarrollo de Páginas Web como Freelancer. Me encanta aprender y enseñar a otros.
             ¡Disfruta mi portafolio!
@@ -95,8 +92,8 @@ const Header = () => {
           <Icon className="btn-floating btn-large waves-effect waves-light red accent-4" href="#!">{Google}</Icon>
           <Icon className="btn-floating btn-large waves-effect waves-light blue darken-3" href="#!">{LinkedIn}</Icon>
           <br />
-          <Buttom className="waves-effect waves-light btn-large brown lighten-4" href="#!"><b>Contáctame</b></Buttom>
-          <Buttom className="waves-effect waves-light btn-large brown lighten-4" href="#!"><b>Ver mi CV</b></Buttom>
+          <Button className="waves-effect waves-light btn-large brown lighten-4" href="#!"><b>Contáctame</b></Button>
+          <Button className="waves-effect waves-light btn-large brown lighten-4" href="#!"><b>Ver mi CV</b></Button>
         </Greetings>
       </div>
     </div>

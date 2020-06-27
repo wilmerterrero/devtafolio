@@ -7,8 +7,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer'
 
 function App() {
-
-  const year = new Date().getFullYear();
   return (
     <Fragment>
       <Navbar 
@@ -18,9 +16,7 @@ function App() {
       <Languages />
       <Experience />
       <Contact />
-      <Footer
-        year = {year}
-      />
+      <Footer />
     </Fragment>
   );
 }

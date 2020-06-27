@@ -32,8 +32,9 @@ const Materialize = styled.img`
 `;
 
 const ReactJS = <FontAwesomeIcon icon={faReact} />;
+const year = new Date().getFullYear();
 
-const Footer = ({ year }) => {
+const Footer = () => {
     return ( 
         <FooterS className="page-footer brown lighten-4">
           <div className="footer-copyright brown lighten-4">
