@@ -30,7 +30,7 @@ const Logo = styled.img`
   margin-left: 5rem;
   margin-top: 2rem;
 
-  @media (max-width: 320px) {
+  @media (max-width: 425px) {
     margin-left: 0px;
   }
 `;

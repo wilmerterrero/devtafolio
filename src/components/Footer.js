@@ -15,6 +15,10 @@ const FooterI = styled.div`
     a{
         color: #595fe1ff;
     }
+
+    @media (max-width: 425px) {
+        text-align: center;
+  }
 `;
 
 const Icon = styled.span`
