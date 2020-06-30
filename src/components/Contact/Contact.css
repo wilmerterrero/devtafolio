@@ -32,10 +32,11 @@
 }
 
 .c-container .btn-contact{
-    color: #3f54a3;
     margin: 0.5rem;
-    font-size: 22px;
-    margin-bottom: 3rem;
+    font-size: 19px;
+    margin-bottom: 2rem;
+    color: #424242;
+    border-radius: 15px;
 }
 
 .c-container .c-icon{

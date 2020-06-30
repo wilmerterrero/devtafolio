@@ -33,9 +33,15 @@
 }
 
 .p-container .btn-grande {
-  color: #3f54a3;
+  background-color: blueviolet;
+  color: #ffffff;
   margin: 0.5rem;
-  font-size: 22px;
+  font-size: 17px;
+  border-radius: 15px 50px 30px;
+}
+
+.p-container .btn-grande:hover{
+  background-color: #f44336;
 }
 
 .wave {

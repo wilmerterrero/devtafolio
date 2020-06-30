@@ -26,7 +26,7 @@ const Contact = () => {
             con algo o simplemente quiere decir hola, póngase en contacto conmigo.
           </p>
           <a
-            className="btn-contact waves-effect waves-light btn brown lighten-4"
+            className="btn-contact waves-effect waves-light btn-large brown lighten-4"
             href="#!"
           >
             <b>

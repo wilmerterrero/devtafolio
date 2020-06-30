@@ -15,12 +15,12 @@ const Portfolio = () => {
         <Fade top duration={1000} distance="20px">
           <div className="p-container">
             <img src={consularis} alt="consularis" />
-            <h3>Consularis Service <a className="waves-effect waves-light btn-small blue darken-2" href="#!">2020</a></h3> 
+            <h3>Consularis Service <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2020</b></a></h3> 
             <p>
               Servicios Migratorios & Legales
             </p>
             <a
-              className="waves-effect waves-light btn-large brown lighten-4 btn-grande"
+              className="waves-effect waves-light btn-large  btn-grande"
               href="#!"
             >
               <b>Visitar sitio</b>
@@ -30,12 +30,12 @@ const Portfolio = () => {
           <Fade top duration={1000} distance="20px">
           <div className="p-container">
             <img src={ovigallery} alt="ovigallery" />
-            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small blue darken-2" href="#!">2019</a></h3>
+            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2019</b></a></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.
             </p>
             <a
-              className="waves-effect waves-light btn-large brown lighten-4 btn-grande"
+              className="waves-effect waves-light btn-large  btn-grande"
               href="#!"
             >
               <b>Visitar sitio</b>
@@ -47,12 +47,12 @@ const Portfolio = () => {
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
             <img src={consularis} alt="consularis" />
-            <h3>Consularis Service <a className="waves-effect waves-light btn-small blue darken-2" href="#!">2020</a></h3> 
+            <h3>Consularis Service <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2020</b></a></h3> 
             <p>
               Servicios Migratorios & Legales
             </p>
             <a
-              className="waves-effect waves-light btn-large brown lighten-4 btn-grande"
+              className="waves-effect waves-light btn-large btn-grande"
               href="#!"
             >
               <b>Visitar sitio</b>
@@ -62,12 +62,12 @@ const Portfolio = () => {
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
             <img src={ovigallery} alt="ovigallery" />
-            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small blue darken-2" href="#!">2019</a></h3>
+            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2019</b></a></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.
             </p>
             <a
-              className="waves-effect waves-light btn-large brown lighten-4 btn-grande"
+              className="waves-effect waves-light btn-large  btn-grande"
               href="#!"
             >
               <b>Visitar sitio</b>

@@ -18,13 +18,13 @@ const Header = () => {
             </p>
             <br />
             <a
-              className="waves-effect waves-light btn-large brown lighten-4"
+              className="waves-effect waves-light btn-large"
               href="#contact"
             >
               <b>Contáctame</b>
             </a>
             <a
-              className="waves-effect waves-light btn-large brown lighten-4"
+              className="waves-effect waves-light btn-large"
               href="#portfolio"
             >
               <b>Portafolio</b>

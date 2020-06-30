@@ -1,6 +1,5 @@
 .header {
   max-width: 90%;
-  padding: 20px 10px;
   margin: 0px auto;
 }
 
@@ -111,7 +110,7 @@
 }
 
 /* 48em = 768px */
-
+/* LARGE DEVICES-LAPTOPS */
 @media (min-width: 48em) {
   .header li {
     float: left;
@@ -134,8 +133,10 @@
     display: none;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+/* SMARTPHONES-TABLETS-SMALLDEVICES */
+@media (max-width: 992px) {
   .header {
     font-size: 12px;
+    padding: 20px 10px;
   }
 }
