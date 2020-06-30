@@ -1,10 +1,7 @@
 import React from 'react';
 import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faReact } from "@fortawesome/free-brands-svg-icons";
-import matcss from '../../img/matcss-min.png';
+import DO from '../../img/dominican-republic.svg';
 
-const ReactJS = <FontAwesomeIcon icon={faReact} />;
 const year = new Date().getFullYear();
 
 const Footer = () => {
@@ -14,7 +11,7 @@ const Footer = () => {
           <div className="footer-copyright brown lighten-4">
             <div className="fs-container container">
             <b>{year} © Wilmer Terrero</b>
-                <a className="right" href="#!"><b>Proudly made with <img src={matcss} alt="" /> and Powered by <span>{ReactJS}</span></b> </a>
+                <a className="right" href="#!"><b>Made with love from <img src={DO} alt="" /></b> </a>
             </div>
           </div>
         </div>

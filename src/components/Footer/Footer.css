@@ -17,6 +17,7 @@
 }
 
 .fs-container img {
+  margin-left: 0.5rem;
   width: 25px;
   vertical-align: -0.3em;
 }
