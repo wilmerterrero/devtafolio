@@ -1,0 +1,44 @@
+.p-container {
+  flex: 1 1;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.p-container h3 {
+  font-size: 40px;
+  line-height: 40px;
+  display: block;
+}
+
+.p-container p {
+  font-size: 24px;
+  line-height: 40px;
+  display: block;
+}
+
+.p-container img {
+  width: 500px;
+  max-width: 100%;
+  display: block;
+  float: left;
+  margin: 0px 15px 15px 0px;
+  margin-left: 1rem;
+}
+
+@media (max-width: 992px) {
+  .p-container img {
+    margin-left: 0px;
+  }
+}
+
+.p-container .btn-grande {
+  color: #3f54a3;
+  margin: 0.5rem;
+  font-size: 22px;
+}
+
+.wave {
+  position: relative;
+  top: 30px;
+}

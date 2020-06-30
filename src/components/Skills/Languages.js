@@ -1,6 +1,9 @@
 import React from "react";
+import {Fade} from "react-reveal";
 import styled from "styled-components";
-import Tools from "../img/languages.png";
+import Tools from "../../img/languages.png";
+import waveTop from "../../img/waveTop.svg";
+import waveBottom from "../../img/waveBottom.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faCss3 } from "@fortawesome/free-brands-svg-icons";
@@ -24,6 +27,18 @@ const Contenedor = styled.div`
   background-color: #3f54a3;
   text-align: center;
   color: #fff;
+  overflow: hidden;
+  position: relative;
+`;
+
+const WaveTop = styled.img`
+  position: relative;
+  top: 7px;
+`;
+
+const WaveBottom = styled.img`
+  position: relative;
+  bottom: 7px;
 `;
 
 const ContenedorPeq = styled.div`
@@ -82,6 +97,7 @@ const Titulo = styled.h1`
   font-size: 40px;
   line-height: 40px;
   display: block;
+  margin-bottom: 3rem;
 
   @media (max-width: 768px){
       font-size: 35px;
@@ -107,10 +123,14 @@ const Descripcion = styled.p`
 const Languages = () => {
   return (
     <div className="row">
-      <Contenedor className="col s12">
+      <WaveTop src={waveTop} alt="" />
+      <Contenedor className="col s12" id="skills">
         <Titulo>¿A qué me dedico?</Titulo>
-        <Herramienta src={Tools} alt="Tools" />
+        <Fade left duration={1000}>
+          <Herramienta src={Tools} alt="Tools" />
+        </Fade>
         <div className="row">
+          <Fade right duration={1000}>
           <ContenedorPeq className="col s6 card-panel hoverable offset-s1 hide-on-small-only hide-on-med-and-down">
             <Subtitulo1>Desarrollo Web</Subtitulo1>
             <Subtitulo>Trabajo con amor con estas tecnologías</Subtitulo>
@@ -149,6 +169,8 @@ const Languages = () => {
               </IconsInline>
             </IconList>
           </ContenedorPeq>
+          </Fade>
+          <Fade top duration={1000} distance="20px">
           <ContenedorPeq className="col s12 card-panel hoverable show-on-small show-on-medium hide-on-large-only hide-on-med-and-up">
             <h4>Desarrollo Web</h4>
             <Subtitulo>Trabajo con amor con estas tecnologías</Subtitulo>
@@ -187,8 +209,10 @@ const Languages = () => {
               </IconsInline>
             </IconList>
           </ContenedorPeq>
+          </Fade>
         </div>
       </Contenedor>
+      <WaveBottom src={waveBottom} alt="" />
     </div>
   );
 };

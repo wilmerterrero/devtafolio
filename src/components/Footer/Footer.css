@@ -1,0 +1,29 @@
+.f-container {
+  padding-top: 0;
+  position: relative;
+}
+
+.fs-container {
+  font-size: 1.2rem;
+  color: #595fe1ff;
+}
+
+.fs-container a {
+  color: #595fe1ff;
+}
+
+.fs-container span {
+  font-size: 1.2rem;
+}
+
+.fs-container img {
+  width: 25px;
+  vertical-align: -0.3em;
+}
+
+@media (max-width: 425px) {
+  .fs-container a {
+    text-align: center;
+    margin: 0;
+  }
+}
