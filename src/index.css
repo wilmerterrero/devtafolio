@@ -4,6 +4,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f7f7f7;
+  -webkit-box-shadow: none;
+   box-shadow: none;
 }
 
 code {

@@ -32,16 +32,23 @@
   }
 }
 
-.p-container .btn-grande {
-  background-color: blueviolet;
+.p-container .btn-grande{
+  background-color: #8a2be2;
   color: #ffffff;
   margin: 0.5rem;
   font-size: 17px;
   border-radius: 15px 50px 30px;
+  cursor: pointer;
+  transition: all .3s ease-in-out 0s;
+  border: solid 1px #8a2be2;
+  font-weight: bold;
 }
 
 .p-container .btn-grande:hover{
-  background-color: #f44336;
+  background-color: #ffffff;
+  color: #000000;
+  transition: all .3s ease 0s;
+  transform: translateY(-3px);
 }
 
 .wave {

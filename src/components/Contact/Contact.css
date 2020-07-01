@@ -26,21 +26,47 @@
   }
 }
 
-.c-container img{
-    width: 200px;
-    max-width: 100%;
+.c-container img {
+  width: 200px;
+  max-width: 100%;
 }
 
-.c-container .btn-contact{
-    margin: 0.5rem;
-    font-size: 19px;
-    margin-bottom: 2rem;
-    color: #424242;
-    border-radius: 15px;
+.c-container .btn-contact {
+  margin: 0.5rem;
+  font-size: 19px;
+  margin-bottom: 2rem;
+  color: #424242;
+  border-radius: 15px 50px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  animation: waving 2s linear infinite;
+  animation-play-state: paused;
 }
 
-.c-container .c-icon{
-    margin: 0.5rem;
-    font-size: 22px;
-    margin-bottom: 4rem;
+.c-container .btn-contact:hover {
+  animation-play-state: running; 
+}
+
+@keyframes waving {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+  85% {
+    transform: rotate(8deg);
+  }
+  95% {
+    transform: rotate(-8deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.c-container .c-icon {
+  margin: 0.5rem;
+  font-size: 22px;
+  margin-bottom: 4rem;
 }

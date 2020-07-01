@@ -22,7 +22,7 @@ const Header = () => {
               href="#contact"
             >
               <b>Contáctame</b>
-            </a>
+            </a> 
             <a
               className="waves-effect waves-light btn-large"
               href="#portfolio"

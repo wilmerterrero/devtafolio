@@ -25,21 +25,23 @@ const Contact = () => {
             Si tiene un proyecto que desea comenzar, cree que necesita mi ayuda
             con algo o simplemente quiere decir hola, póngase en contacto conmigo.
           </p>
+          </Fade>
           <a
-            className="btn-contact waves-effect waves-light btn-large brown lighten-4"
+            className="btn-contact waves-effect waves-light btn-large white"
             href="#!"
           >
             <b>
-              Contáctame <i className="material-icons">markunread</i>
+              Contáctame
             </b>
           </a>
-        </Fade>      
-        
       </div>
+      <Fade top>
         <a className="c-icon btn-floating btn-large waves-effect waves-light grey darken-4" href="#!">{Github}</a>
         <a className="c-icon btn-floating btn-large waves-effect waves-light red accent-4" href="#!">{Google}</a>
-        <a className="c-icon btn-floating btn-large waves-effect waves-light blue darken-3" href="#!">{LinkedIn}</a> 
+        <a className="c-icon btn-floating btn-large waves-effect waves-light blue darken-3" href="#!">{LinkedIn}</a>
+      </Fade> 
     </div>
+    
   );
 };
 
