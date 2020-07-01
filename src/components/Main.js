@@ -5,7 +5,6 @@ import Languages from "../components/Skills/Languages";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import BackToTop from '../components/BackTop/Top'
 
 const Main = () => {
   return (
@@ -16,7 +15,6 @@ const Main = () => {
       <Portfolio />
       <Contact />
       <Footer />
-      <BackToTop />
     </div>
   );
 };
