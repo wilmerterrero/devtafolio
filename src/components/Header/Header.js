@@ -12,7 +12,7 @@ const Header = () => {
             <img src={img} alt="foto" className="logo" />
             <h1>¡Hola! Soy Wilmer Terrero </h1>
             <p>
-              Soy un dominicano aficionado por la tecnología. Actualmente me
+              Soy un dominicano entusiasta por la tecnología. Actualmente me
               dedico al Desarrollo de Páginas Web como Freelancer. Me encanta
               aprender y enseñar a otros. ¡Disfruta mi portafolio!
             </p>
