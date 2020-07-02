@@ -14,7 +14,7 @@ const Slider = () => {
     arrows: true,
     slidesToShow: 3,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000,
     responsive: [
       {
         breakpoint: 768,
@@ -23,6 +23,7 @@ const Slider = () => {
           centerMode: true,
           centerPadding: "10px",
           slidesToShow: 3,
+          autoplaySpeed: 3000
         },
       },
       {
@@ -32,6 +33,7 @@ const Slider = () => {
           centerMode: true,
           centerPadding: "10px",
           slidesToShow: 1,
+          autoplaySpeed: 3000
         },
       },
     ],
