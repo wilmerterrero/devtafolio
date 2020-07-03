@@ -5,11 +5,11 @@ import Fade from 'react-reveal/Fade';
 import me from "../../img/me.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Github = <FontAwesomeIcon icon={faGithub} />;
-const Google = <FontAwesomeIcon icon={faGoogle} />;
+const Youtube = <FontAwesomeIcon icon={faYoutube} />;
 const LinkedIn = <FontAwesomeIcon icon={faLinkedin} />;
 
 const Contact = () => {
@@ -28,7 +28,9 @@ const Contact = () => {
           </Fade>
           <a
             className="btn-contact waves-effect waves-light btn-large white"
-            href="#!"
+            href="mailto:wilmerterrero1922@gmail.com"
+            target="_blank" 
+            rel="noopener noreferrer"
           >
             <b>
               Contáctame
@@ -36,9 +38,30 @@ const Contact = () => {
           </a>
       </div>
       <Fade top>
-        <a className="c-icon btn-floating btn-large waves-effect waves-light grey darken-4" href="#!">{Github}</a>
-        <a className="c-icon btn-floating btn-large waves-effect waves-light red accent-4" href="#!">{Google}</a>
-        <a className="c-icon btn-floating btn-large waves-effect waves-light blue darken-3" href="#!">{LinkedIn}</a>
+        <a 
+          className="c-icon btn-floating btn-large waves-effect waves-light grey darken-4" 
+          href="https://github.com/wilmerterrero"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
+            {Github}
+        </a>
+        <a 
+          className="c-icon btn-floating btn-large waves-effect waves-light red accent-4" 
+          href="https://www.youtube.com/channel/UCxyWgbeavnudPkYbi4YqmmQ"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
+            {Youtube}
+        </a>
+        <a 
+          className="c-icon btn-floating btn-large waves-effect waves-light blue darken-3" 
+          href="https://www.linkedin.com/in/wilmer-terrero-49540517a/"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
+            {LinkedIn}
+        </a>
       </Fade> 
     </div>
     

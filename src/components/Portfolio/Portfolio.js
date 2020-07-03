@@ -1,17 +1,16 @@
 import React, { Fragment } from "react";
+import {Fade} from "react-reveal";
 import  "./Portfolio.css";
 import consularis from "../../img/portfolio/consularis.png";
 import ovigallery from "../../img/portfolio/ovigallery.png";
 import lyricartist from "../../img/portfolio/lyricartist.png";
 import waveTop from "../../img/waveTop.svg";
-import {Fade} from "react-reveal";
 
 const Portfolio = () => {
   return (
     <Fragment>
       <div className="row" id="portfolio">
         <h3 className="center align p-titulo">Portafolio</h3>
-        <br />
         <br />
         <div className="col s10 offset-s2 hide-on-small-only hide-on-med-and-down">
         <Fade top duration={1000} distance="20px">
@@ -23,7 +22,9 @@ const Portfolio = () => {
             </p>
             <a
               className="waves-effect waves-light btn-large  btn-grande"
-              href="#!"
+              href="https://consularisservice.com"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <b>Visitar sitio</b>
             </a>
@@ -38,7 +39,9 @@ const Portfolio = () => {
             </p>
             <a
               className="waves-effect waves-light btn-large  btn-grande"
-              href="#!"
+              href="https://lyricartist.netlify.app"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <b>Preview</b>
             </a>
