@@ -204,7 +204,7 @@ const Languages = () => {
               </IconsInline>
               <IconsInline>
                 <Icon href="#!">{JS}</Icon>
-                <Descripcion>Javascript, Jquery, Ajax</Descripcion>
+                <Descripcion>Javascript</Descripcion>
               </IconsInline>
               <IconsInline>
                 <Icon href="#!">{ReactJS}</Icon>
@@ -224,7 +224,7 @@ const Languages = () => {
               </IconsInline>
               <IconsInline>
                 <Icon href="#!">{Github}</Icon>
-                <Descripcion>Git, GitHub</Descripcion>
+                <Descripcion>GitHub</Descripcion>
               </IconsInline>
             </IconList>
           </ContenedorPeq>
