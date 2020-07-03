@@ -21,7 +21,7 @@ const Portfolio = () => {
               Servicios Migratorios & Legales
             </p>
             <a
-              className="waves-effect waves-light btn-large  btn-grande"
+              className="waves-effect waves-light btn-large btn-grande"
               href="https://consularisservice.com"
               target="_blank" 
               rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Portfolio = () => {
               Buscador de letras de canciones.
             </p>
             <a
-              className="waves-effect waves-light btn-large  btn-grande"
+              className="waves-effect waves-light btn-large btn-grande"
               href="https://lyricartist.netlify.app"
               target="_blank" 
               rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const Portfolio = () => {
               Landing page de la galería de arte Ovi Gallery.
             </p>
             <a
-              className="waves-effect waves-light btn-large  btn-grande"
+              className="waves-effect waves-light btn-large btn-grande"
               href="#!"
             >
               <b>Preview</b>
@@ -73,7 +73,9 @@ const Portfolio = () => {
             </p>
             <a
               className="waves-effect waves-light btn-large btn-grande"
-              href="#!"
+              href="https://consularisservice.com"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <b>Visitar sitio</b>
             </a>
@@ -87,8 +89,10 @@ const Portfolio = () => {
               Buscador de letras de canciones.
             </p>
             <a
-              className="waves-effect waves-light btn-large  btn-grande"
-              href="#!"
+              className="waves-effect waves-light btn-large btn-grande"
+              href="https://lyricartist.netlify.app"
+              target="_blank" 
+              rel="noopener noreferrer"
             >
               <b>Preview</b>
             </a>
