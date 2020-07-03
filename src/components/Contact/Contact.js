@@ -28,7 +28,7 @@ const Contact = () => {
           </Fade>
           <a
             className="btn-contact waves-effect waves-light btn-large white"
-            href="mailto:wilmerterrero1922@gmail.com"
+            href="mailto:wilmerterrero1922@gmail.com?subject=¡Hola, Wilmer!&body=¿Nos ponemos en contacto?"
             target="_blank" 
             rel="noopener noreferrer"
           >
