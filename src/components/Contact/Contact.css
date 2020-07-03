@@ -1,5 +1,5 @@
 .c-container {
-  background-color: #3f54a3;
+  background-color: #8a2be2;
   text-align: center;
   color: #fff;
   padding-bottom: 3rem;
@@ -7,7 +7,22 @@
 }
 
 .c-container h1 {
-  font-size: 40px;
+  font-size: 2.28rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+
+.c-container h1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 10px auto;
+  width: 10%;
+  height: 3px;
+  background: #fff;
 }
 
 .c-container p {
@@ -20,7 +35,15 @@
 }
 
 @media (max-width: 1024px) {
+  .c-container h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
   .c-container p {
+    font-size: 19px;
+    padding: 2rem;
     width: 100%;
     margin-left: 0px;
   }

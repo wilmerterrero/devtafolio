@@ -8,9 +8,25 @@
 
 .h-container h1 {
   font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
   line-height: 40px;
   display: block;
   margin-top: 7rem;
+  color: #a9a9a9;
+  position:relative;
+  display:inline-block;
+}
+
+.h-container h1:after {
+  content:'';
+  position:absolute;
+  left:0;right:5;
+  top:100%;
+  margin: 10px auto;
+  width:60%;
+  height:3px;
+  background:#8a2be2;
 }
 
 .h-container p {
@@ -56,9 +72,14 @@
 
   .h-container .logo {
     margin-left: 0px;
+    margin-bottom: 0px;
   }
 
   .h-container a{
     display: none;
+  }
+
+  .h-container h1:after{
+    left:0;right:0;
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import {Fade} from "react-reveal";
 import styled from "styled-components";
-import Tools from "../../img/languages.png";
+import Tools from "../../img/skills.png";
 import waveTop from "../../img/waveTop.svg";
 import waveBottom from "../../img/waveBottom.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +12,7 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faPhp } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faBootstrap } from "@fortawesome/free-brands-svg-icons";
-import { faGit } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const HTML5 = <FontAwesomeIcon icon={faHtml5} />;
 const CSS = <FontAwesomeIcon icon={faCss3} />;
@@ -21,10 +21,10 @@ const ReactJS = <FontAwesomeIcon icon={faReact} />;
 const PHP = <FontAwesomeIcon icon={faPhp} />;
 const SQL = <FontAwesomeIcon icon={faDatabase} />;
 const Bootstrap = <FontAwesomeIcon icon={faBootstrap} />;
-const Git = <FontAwesomeIcon icon={faGit} />;
+const Github = <FontAwesomeIcon icon={faGithub} />;
 
 const Contenedor = styled.div`
-  background-color: #3f54a3;
+  background-color: #8a2be2;
   text-align: center;
   color: #fff;
   overflow: hidden;
@@ -74,7 +74,7 @@ const Icon = styled.a`
   color: #808080;
 
   &:hover{
-    color: #3f54a3;
+    color: #8a2be2;
   }
 `;
 
@@ -94,10 +94,25 @@ const IconsInline = styled.li`
 `;
 
 const Titulo = styled.h1`
-  font-size: 40px;
+  font-size: 2.28rem;
   line-height: 40px;
   display: block;
   margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+
+  &:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin: 10px auto;
+  width: 10%;
+  height: 3px;
+  background: #fff;
+}
 
   @media (max-width: 768px){
       font-size: 35px;
@@ -105,19 +120,23 @@ const Titulo = styled.h1`
 `;
 
 const Subtitulo1 = styled.h4`
-  font-size: 29px;
+  font-size: 1.5rem;
+  font-weight: bold;
   line-height: 40px;
   display: block;
+  text-transform: uppercase;
+  color: #9b9b9b;
 `;
 
 const Subtitulo = styled.p`
-  font-size: 18px;
+  font-size: 17px;
   line-height: 40px;
   display: block;
 `;
 
 const Descripcion = styled.p`
   font-size: 11px;
+  text-transform: uppercase;
 `;
 
 const Languages = () => {
@@ -145,7 +164,7 @@ const Languages = () => {
               </IconsInline>
               <IconsInline>
                 <Icon href="#!">{JS}</Icon>
-                <Descripcion>Vanilla, Jquery, Ajax</Descripcion>
+                <Descripcion>Javascript</Descripcion>
               </IconsInline>
               <IconsInline>
                 <Icon href="#!">{ReactJS}</Icon>
@@ -164,8 +183,8 @@ const Languages = () => {
                 <Descripcion>Boostrap</Descripcion>
               </IconsInline>
               <IconsInline>
-                <Icon href="#!">{Git}</Icon>
-                <Descripcion>Git, GitHub</Descripcion>
+                <Icon href="#!">{Github}</Icon>
+                <Descripcion>Github</Descripcion>
               </IconsInline>
             </IconList>
           </ContenedorPeq>
@@ -204,7 +223,7 @@ const Languages = () => {
                 <Descripcion>Boostrap</Descripcion>
               </IconsInline>
               <IconsInline>
-                <Icon href="#!">{Git}</Icon>
+                <Icon href="#!">{Github}</Icon>
                 <Descripcion>Git, GitHub</Descripcion>
               </IconsInline>
             </IconList>

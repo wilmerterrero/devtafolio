@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import  "./Portfolio.css";
 import consularis from "../../img/portfolio/consularis.png";
 import ovigallery from "../../img/portfolio/ovigallery.png";
+import lyricartist from "../../img/portfolio/lyricartist.png";
 import waveTop from "../../img/waveTop.svg";
 import {Fade} from "react-reveal";
 
@@ -9,13 +10,14 @@ const Portfolio = () => {
   return (
     <Fragment>
       <div className="row" id="portfolio">
-        <h3 className="center align" style={{paddingBottom: "3rem"}}>Portafolio</h3>
+        <h3 className="center align p-titulo">Portafolio</h3>
+        <br />
         <br />
         <div className="col s10 offset-s2 hide-on-small-only hide-on-med-and-down">
         <Fade top duration={1000} distance="20px">
           <div className="p-container">
             <img src={consularis} alt="consularis" />
-            <h3>Consularis Service <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2020</b></a></h3> 
+            <h3>Consularis Service <span className="year">2020</span></h3> 
             <p>
               Servicios Migratorios & Legales
             </p>
@@ -29,8 +31,23 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="p-container">
+            <img src={lyricartist} alt="lyricartist" />
+            <h3>Lyricartist <span className="year">2020</span></h3>
+            <p>
+              Buscador de letras de canciones.
+            </p>
+            <a
+              className="waves-effect waves-light btn-large  btn-grande"
+              href="#!"
+            >
+              <b>Preview</b>
+            </a>
+          </div>
+          </Fade>
+          <Fade top duration={1000} distance="20px">
+          <div className="p-container">
             <img src={ovigallery} alt="ovigallery" />
-            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2019</b></a></h3>
+            <h3>Ovi Gallery <span className="year">2019</span></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.
             </p>
@@ -38,7 +55,7 @@ const Portfolio = () => {
               className="waves-effect waves-light btn-large  btn-grande"
               href="#!"
             >
-              <b>Visitar sitio</b>
+              <b>Preview</b>
             </a>
           </div>
           </Fade>
@@ -47,7 +64,7 @@ const Portfolio = () => {
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
             <img src={consularis} alt="consularis" />
-            <h3>Consularis Service <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2020</b></a></h3> 
+            <h3>Consularis Service <span className="year">2020</span></h3> 
             <p>
               Servicios Migratorios & Legales
             </p>
@@ -61,8 +78,23 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
+            <img src={lyricartist} alt="ovigallery" />
+            <h3>Lyricartist <span className="year">2020</span></h3>
+            <p>
+              Buscador de letras de canciones.
+            </p>
+            <a
+              className="waves-effect waves-light btn-large  btn-grande"
+              href="#!"
+            >
+              <b>Preview</b>
+            </a>
+          </div>
+          </Fade>
+          <Fade top duration={1000} distance="20px">
+          <div className="center align p-container">
             <img src={ovigallery} alt="ovigallery" />
-            <h3>Ovi Gallery <a className="waves-effect waves-light btn-small disabled" href="#!"><b>2019</b></a></h3>
+            <h3>Ovi Gallery <span className="year">2019</span></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.
             </p>
@@ -70,7 +102,7 @@ const Portfolio = () => {
               className="waves-effect waves-light btn-large  btn-grande"
               href="#!"
             >
-              <b>Visitar sitio</b>
+              <b>Preview</b>
             </a>
           </div>
           </Fade>
