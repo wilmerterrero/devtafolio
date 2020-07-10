@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
+import {Image} from 'cloudinary-react';
 import "./Header.css";
-import img from "../../img/WilmerLogo.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="row">
         <div className="col s10 card-pannel offset-s1">
           <div className="h-container">
-            <img src={img} alt="foto" className="logo" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/WilmerLogo_q8eaii.png" className="logo" />
             <h1>¡Hola! Soy Wilmer Terrero </h1>
             <p>
               Soy un dominicano entusiasta por la tecnología. Actualmente me

@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import {Fade} from "react-reveal";
 import  "./Portfolio.css";
-import consularis from "../../img/portfolio/consularis.png";
-import ovigallery from "../../img/portfolio/ovigallery.png";
-import lyricartist from "../../img/portfolio/lyricartist.png";
+import {Image} from 'cloudinary-react';
 import waveTop from "../../img/waveTop.svg";
 
 const Portfolio = () => {
@@ -15,7 +13,7 @@ const Portfolio = () => {
         <div className="col s10 offset-s2 hide-on-small-only hide-on-med-and-down">
         <Fade top duration={1000} distance="20px">
           <div className="p-container">
-            <img src={consularis} alt="consularis" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/consularis_bxvhkq.png" />
             <h3>Consularis Service <span className="year">2020</span></h3> 
             <p>
               Servicios Migratorios & Legales
@@ -32,7 +30,7 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="p-container">
-            <img src={lyricartist} alt="lyricartist" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/lyricartist_cudqfu.png" />
             <h3>Lyricartist <span className="year">2020</span></h3>
             <p>
               Buscador de letras de canciones.
@@ -49,7 +47,7 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="p-container">
-            <img src={ovigallery} alt="ovigallery" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/ovigallery_a2si7x.png" />
             <h3>Ovi Gallery <span className="year">2019</span></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.
@@ -66,7 +64,7 @@ const Portfolio = () => {
         <div className="col s12 show-on-small show-on-medium hide-on-large-only hide-on-med-and-up">
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
-            <img src={consularis} alt="consularis" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/consularis_bxvhkq.png" />
             <h3>Consularis Service <span className="year">2020</span></h3> 
             <p>
               Servicios Migratorios & Legales
@@ -83,7 +81,7 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
-            <img src={lyricartist} alt="ovigallery" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/lyricartist_cudqfu.png" />
             <h3>Lyricartist <span className="year">2020</span></h3>
             <p>
               Buscador de letras de canciones.
@@ -100,7 +98,7 @@ const Portfolio = () => {
           </Fade>
           <Fade top duration={1000} distance="20px">
           <div className="center align p-container">
-            <img src={ovigallery} alt="ovigallery" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/portfolio/ovigallery_a2si7x.png" />
             <h3>Ovi Gallery <span className="year">2019</span></h3>
             <p>
               Landing page de la galería de arte Ovi Gallery.

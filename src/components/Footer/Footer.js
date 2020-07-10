@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="f-container page-footer white">
           <div className="footer-copyright white">
             <div className="fs-container container">
-            <b>{year} © Wilmer Terrero</b>
+                <b>{year} © Wilmer Terrero</b>
                 <a className="right" href="#!"><b>Made with love from <img src={DO} alt="" /></b> </a>
             </div>
           </div>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Fade } from "react-reveal";
 import styled from "styled-components";
 import emoji from "react-easy-emoji";
-import logo from "../../img/isologotipo.png";
+import {Image} from 'cloudinary-react';
 import "./Navbar.css";
 
 const Icons = styled.a`
@@ -40,7 +40,7 @@ const Navbar = () => {
       <Fragment>
         <header className="header">
           <a href="/" className="logo">
-            <img src={logo} width="85px" alt="" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/isologotipo_ijq5w7.png" width="85px" />
           </a>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">

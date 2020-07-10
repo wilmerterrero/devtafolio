@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import Flip from 'react-reveal/Flip';
 import Fade from 'react-reveal/Fade';
-import me from "../../img/me.jpg";
+import {Image} from 'cloudinary-react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="c-container col s12" id="contact">
       <div className="center-align">
         <Flip left>
-          <img src={me} alt="" className="circle responsive-img" />
+          <Image cloudName="wterrerocloud" publicId="myportfolio/me_gvrwzr.jpg" className="circle responsive-img" />
         </Flip>
         <Fade top>
           <h1>¡Puedo ayudarte!</h1>
