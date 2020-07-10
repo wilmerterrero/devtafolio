@@ -40,7 +40,7 @@ const Navbar = () => {
       <Fragment>
         <header className="header">
           <a href="/" className="logo">
-            <Image cloudName="wterrerocloud" publicId="myportfolio/isologotipo_ijq5w7.png" width="85px" />
+            <Image cloudName="wterrerocloud" publicId="myportfolio/isologotipo_ijq5w7.png" width="85px" alt="logo" />
           </a>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">

@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="c-container col s12" id="contact">
       <div className="center-align">
         <Flip left>
-          <Image cloudName="wterrerocloud" publicId="myportfolio/me_gvrwzr.jpg" className="circle responsive-img" />
+          <Image cloudName="wterrerocloud" publicId="myportfolio/me_gvrwzr.jpg" className="circle responsive-img" alt="me" />
         </Flip>
         <Fade top>
           <h1>¡Puedo ayudarte!</h1>
