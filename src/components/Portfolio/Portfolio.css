@@ -90,15 +90,12 @@
     margin-left: 0px;
   }
 
-  .p-container h3{
-    text-align: center;
-  }
-
-  .p-container p{
+  .p-container h3, p{
     text-align: center;
   }
 
   .p-container .btn-grande{
-    margin-left: 5rem;
+    display: block;
+    text-align: -webkit-center
   }
 }
