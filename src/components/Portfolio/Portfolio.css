@@ -48,12 +48,6 @@
   margin-left: 1rem;
 }
 
-@media (max-width: 992px) {
-  .p-container img {
-    margin-left: 0px;
-  }
-}
-
 .p-container .year{
   vertical-align: middle;
   margin-left: 5px;
@@ -88,4 +82,22 @@
 .wave {
   position: relative;
   top: 30px;
+}
+
+@media (max-width: 992px) {
+  .p-container img {
+    margin-left: 0px;
+  }
+
+  .p-container h3{
+    text-align: center;
+  }
+
+  .p-container p{
+    text-align: center;
+  }
+
+  .p-container .btn-grande{
+    margin-left: 5rem;
+  }
 }
