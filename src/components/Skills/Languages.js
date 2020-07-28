@@ -124,13 +124,13 @@ const Titulo = styled.h1`
   }
 `;
 
-const Subtitulo1 = styled.h4`
+const Subtitulo1 = styled.h5`
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 40px;
   display: block;
   text-transform: uppercase;
-  color: #9b9b9b;
+  color: #292929;
 `;
 
 const Subtitulo = styled.p`
