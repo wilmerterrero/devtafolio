@@ -1,10 +1,11 @@
 .p-titulo{
-  font-size: 30px;
+  font-size: 2.28rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #a9a9a9;
-  position:relative;
+  color: #292929;
+  position: relative;
+  margin-bottom: 4rem;  
 }
 
 .p-titulo:after {
