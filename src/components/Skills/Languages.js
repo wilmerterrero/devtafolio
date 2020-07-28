@@ -45,6 +45,10 @@ const ContenedorPeq = styled.div`
   background-color: #fff;
   color: #000;
   margin-left: 6rem !important;
+
+  @media (max-width: 992px) {
+    margin-left: 0 !important;
+  }
 `;
 
 const Herramienta = styled.img`

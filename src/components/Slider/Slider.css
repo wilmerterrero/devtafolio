@@ -32,8 +32,13 @@
 
 .sliderick .s-titulo {
   text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #3f54a3;
+}
+
+.sliderick p {
+  font-size: 1.2rem;
 }
 
 .slick-next:before,
@@ -42,4 +47,18 @@
   line-height: 1;
   opacity: 0.75;
   color: #3f54a3;
+}
+
+@media (max-width: 992px){
+  .sliderick .s-titulo {
+    font-size: 1.4rem;
+  }
+  
+  .sliderick p{
+    display: none;
+  }
+
+  .sliderick img {
+    width: 160px;
+  }
 }
