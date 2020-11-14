@@ -57,10 +57,10 @@ const Herramienta = styled.img`
   display: block;
   float: right;
   margin: 0px 15px 15px 0px;
-  margin-right: 10rem;
+  margin-right: 2rem;
   margin-top: 2rem;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1024px) {
     margin-right: 0px;
     width: 230px;
     float: none;
